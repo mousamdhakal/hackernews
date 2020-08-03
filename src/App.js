@@ -80,7 +80,7 @@ class App extends Component {
           <Header />
           <Route
             exact
-            path="/"
+            path="/hackernews"
             render={(props) => (
               <StoriesContainer
                 {...props}
@@ -91,7 +91,7 @@ class App extends Component {
               />
             )}
           />
-          <Route path="/:story_id" component={Story} />
+          <Route path="/hackernews/:story_id" component={Story} />
         </div>
       </BrowserRouter>
     );

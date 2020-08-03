@@ -7,7 +7,7 @@ function StoryItem(props) {
   return (
     <Link
       to={{
-        pathname: "/" + props.story.id,
+        pathname: "/hackernews/" + props.story.id,
         aboutProps: {
           story: props.story,
         },
