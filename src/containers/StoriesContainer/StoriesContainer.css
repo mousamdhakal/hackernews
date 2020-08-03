@@ -1,0 +1,15 @@
+.stories {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.stories__nav {
+  display: block;
+  margin: 20px auto;
+  width: max-content;
+}
+
+.stories__page-number {
+  font-size: 30px;
+  position: relative;
+  bottom: 5px;
+}

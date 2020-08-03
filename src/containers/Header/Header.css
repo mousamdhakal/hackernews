@@ -1,0 +1,26 @@
+.header {
+  font-family: 'Red Rose', cursive;
+  background-color: var(--rhythm);
+}
+
+.header__brand {
+  float: left;
+  margin: 20px 0;
+  margin-left: 10px;
+}
+
+.header__link {
+  font-size: 30px;
+  text-decoration: none;
+  color: var(--aero-blue-2);
+}
+
+@media (min-width:768px){
+  .header__link {
+    font-size: 35px;
+  }
+
+  .header__brand {
+    margin-left: 12px;
+  }
+}

@@ -1,0 +1,63 @@
+.story-details {
+  margin: 20px 0;
+}
+
+.story-details__head {
+  margin-left: 10px;
+}
+
+.story-details__title {
+  font-family: 'Roboto Slab', serif;
+}
+
+.story-details__link {
+  color: var(--outer-space-crayola);
+  font-size: 25px;
+}
+
+.story-details__link:hover {
+  text-decoration: underline;
+}
+
+.story-details__info {
+  margin: 10px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.story-details__score {
+  margin-left: 10px;
+}
+
+.story-details__comments {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.story-details__comment-title {
+  padding: 14px;
+  display: block;
+  width: 112px;
+  margin: 15px auto;
+  border-radius: 5px;
+  text-align: center;
+  background-color: var(--rhythm);
+  color: var(--aero-blue-2);
+}
+
+.story-details__no-comments {
+  margin-left: 10px;
+}
+
+@media (min-width:768px){
+  .story-details__head {
+    margin-left: 12px;
+  }
+
+  .story-details__link {
+    font-size: 28px;
+  }
+
+  .story-details__info {
+    font-size: 18px;
+  }
+}
