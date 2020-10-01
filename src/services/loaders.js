@@ -1,10 +1,12 @@
 import React from "react";
+import loading from "./loading.svg"
+import textLoading from "./textLoading.svg"
 
 export function PageLoader() {
   return (
     <img
       className="loading-img"
-      src="./assets/images/loading.svg"
+      src={loading}
       alt="Loading page"
     />
   );
@@ -13,7 +15,7 @@ export function PageLoader() {
 export function TextLoader() {
   return (
     <img
-      src="./assets/images/text-loading.svg"
+      src={textLoading}
       alt="Loading text"
       className="loading-txt"
     />
